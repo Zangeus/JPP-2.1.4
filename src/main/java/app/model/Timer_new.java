@@ -1,5 +1,9 @@
 package app.model;
-public class Timer {
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Timer_new {
 
     private Long nanoTime = System.nanoTime();
 
